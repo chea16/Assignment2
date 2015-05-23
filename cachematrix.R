@@ -1,4 +1,4 @@
-# The following functions are written to make save time in computing inverse of a matrix when inverse of the same matrix is computed again and again.
+# The following functions are written to save time in computing inverse of a matrix when inverse of the same matrix is computed again and again.
 # In case of repeat computations the cached data can be reported. On the command line run the following commands in sequence:
 # s<-makeCacheMatrix()
 # s$set(matrix(c(1,0,5,2,1,6,3,4,0), nrow=3, ncol=3))
